@@ -1,0 +1,25 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Israel Klebanoff"
+  
+  navbar:
+    right:
+      - text: Home
+        href: index.qmd
+      - text: Resume
+        href: resume.qmd
+      - icon: github
+        href: https://github.com/IsraelKUARK
+      
+        
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    
+editor: visual
